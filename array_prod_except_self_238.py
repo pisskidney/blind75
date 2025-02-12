@@ -19,4 +19,4 @@ class Solution:
         if nr_zeros == 1:
             return [0 if x != 0 else product for x in nums]
 
-        return [product / x for x in nums]
+        return [product // x for x in nums]
